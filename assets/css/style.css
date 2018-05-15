@@ -6,11 +6,14 @@ h1 {
 h2 {
     font-family: 'Times New Roman';
     color: #8cdae6;
+    border-bottom: 1px dotted darkgrey;
 }
 
 .aboutpic {
     float: left;
     padding: 34px 12px 24px;
+    margin-right: 2px;
+    margin-top: -3px;
     -webkit-transition: margin 0.5s ease-out;
     -moz-transition: margin 0.5s ease-out;
     -o-transition: margin 0.5s ease-out;
@@ -18,6 +21,12 @@ h2 {
 
 .aboutpic:hover {
     margin-top: -10px;
+}
+
+.topname {
+    width: 20%;
+    padding: 2px;
+    margin-bottom: 2px;
 }
 
 body {
